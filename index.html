@@ -10,35 +10,34 @@
 <body>
 <div class="app">
   <aside class="sidebar" id="sidebar">
-    <div class="sidebar-header"><span>Menu</span><button class="icon-btn" id="closeMenu">×</button></div>
+    <div class="sidebar-header"><span class="title">Menu</span><button class="icon-btn" id="closeMenu"><i class="fa-solid fa-x fa-2xs"></i></button></div>
     <nav class="nav">
       <button class="nav-item active" data-page="home"><span class="icon"><i class="fa-regular fa-house"></i></span>Home</button>
       <button class="nav-item" data-page="rooster"><span class="icon"><i class="fa-regular fa-calendar"></i></span>Rooster</button>
       <button class="nav-item" data-page="plattegrond"><span class="icon"><i class="fa-regular fa-map"></i></span>Plattegrond</button>
-      <button class="nav-item" data-page="links"><span class="icon">↗</span>Belangrijke websites of linkjes</button>
+      <button class="nav-item" data-page="links"><span class="icon"><i class="fa-solid fa-link"></i></span>Belangrijke websites of linkjes</button>
       <button class="nav-item" data-page="afspraken"><span class="icon"><i class="fa-solid fa-exclamation"></i></span>Toekomstige afspraken/toetsen</button>
     </nav>
 
     <div class="profile"><div class="avatar"><i class="fa-regular fa-user"></i></div><div><div class="name">Student</div><div class="sub">Lorem Ipsum</div></div><button class="dots">⋮</button></div>
 
     <nav class="nav bottom-nav">
-      <button class="nav-item"><span class="icon white">?</span>Help</button>
-      <button class="nav-item"><span class="icon white"><i class="fa-regular fa-envelope"></i></span>Berichten</button>
-      <button class="nav-item" data-page="todo"><span class="icon">☑</span>Todo</button>
+      <button class="nav-item"><span class="icon"><i class="fa-solid fa-question"></i></span>Help</button>
+      <button class="nav-item"><span class="icon"><i class="fa-regular fa-envelope"></i></span>Berichten</button>
+      <button class="nav-item" data-page="todo"><span class="icon"><i class="fa-regular fa-square-check"></i></span>Todo</button>
     </nav>
     <button class="close-text" id="closeText">MENU SLUITEN</button>
   </aside>
-
   <main class="main">
     <header class="topbar">
-      <button class="mobile-menu" id="openMenu">☰</button>
+      <button class="mobile-menu" id="openMenu"><i class="fa-solid fa-bars"></i></button>
       <div class="title"><span class="title-icon"><i class="fa-regular fa-house"></i></span><span id="pageTitle">Home</span></div>
-      <div class="top-actions"><button>⌕</button><button><i class="fa-regular fa-user"></i></button></div>
+      <div class="top-actions"><button><i class="fa-solid fa-magnifying-glass"></i></button><button><i class="fa-regular fa-user"></i></button></div>
     </header>
 
     <section id="home" class="page active">
       <div class="welcome card">
-        <div><h1>Welkom!</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+        <div><h1>Welkom!</h1><p>Dit is de Student App HAN, hier vind je alles dat je nodig hebt voor je tijd bij de HAN!</p></div>
         <div class="cap"><i class="fa-regular fa-house"></i></div>
       </div>
 
@@ -52,8 +51,8 @@
           </div>
         </div>
         <div class="card">
-          <h2>↗ <span>Belangrijke links</span></h2> 
-		<ul class="links"><li>Osiris: https://osiris.han.nl/ <span>↗</span></li><li>HAN event app: https://apps.apple.com/nl/app/han-event-app/id6745787494 <span>↗</span></li><li>Wifi: https://eduroam.org/geteduroam-get-connected-quickly-and-safely/ <span>↗</span></li><li>Lesinfo: https://leren.han.nl/ <span>↗</span></li></ul>
+          <h2><i class="fa-solid fa-link"></i> <span>Belangrijke links</span></h2> 
+		<ul class="links"><li><a href="https://osiris.han.nl/" target="_blank">Osiris</a></li><li><a href="https://apps.apple.com/nl/app/han-event-app/id6745787494" target="_blank">HAN event app</a></li><li><a href="https://eduroam.org/geteduroam-get-connected-quickly-and-safely/" target="_blank">Wifi</a></li><li><a href="https://leren.han.nl/" target="_blank">Lesinfo</a></li></ul>
         </div>
       </div>
 
@@ -72,7 +71,7 @@
       </div>
 
       <div class="card todo-card">
-        <h2>☑ <span>Todo</span></h2>
+        <h2><i class="fa-regular fa-square-check"></i> <span>Todo</span></h2>
         <label><input type="checkbox"> <span>Lorem ipsum dolor sit amet</span></label>
         <label><input type="checkbox"> <span>Consectetur adipiscing elit</span></label>
       </div>
@@ -82,10 +81,10 @@
     <section id="plattegrond" class="page"><div class="card simple"><h1>Plattegrond</h1><div class="big-map"><p>Begane grond</p><img style="margin-top:5px; width:400px;" src="https://i.postimg.cc/0Nk4kWMV/m0-met-trap.png"></img><p>Eerste verdieping</p><img style="margin-top:5px; width:400px;" src="https://i.postimg.cc/wjcPd8vg/m1.png"></img><p>Tweede verdieping</p><img style="margin-top:5px; width:400px;" src="https://i.postimg.cc/YCwVVqpK/m2.png"></img></div></div></section>
     <section id="links" class="page"><div class="card simple"><h1>Belangrijke websites of linkjes</h1><ul class="links">
 
-<li>Osiris: https://osiris.han.nl/<span>↗</span></li>
-<li>HAN event app: https://apps.apple.com/nl/app/han-event-app/id6745787494 <span>↗</span></li>
-<li>Wifi: https://eduroam.org/geteduroam-get-connected-quickly-and-safely/ <span>↗</span></li>
-<li>Lesinfo: https://leren.han.nl/ <span>↗</span></li>
+<li><a href="https://osiris.han.nl/" target="_blank">Osiris</a></li>
+<li><a href="https://apps.apple.com/nl/app/han-event-app/id6745787494" target="_blank">HAN event app</a></li>
+<li><a href="https://eduroam.org/geteduroam-get-connected-quickly-and-safely/" target="_blank">Wifi</a></li>
+<li><a href="https://leren.han.nl/" target="_blank">Lesinfo</a></li>
 
 </ul></div></section>
     <section id="afspraken" class="page"><div class="card simple"><h1>Toekomstige afspraken/toetsen</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></section>
