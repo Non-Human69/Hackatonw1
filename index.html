@@ -17,6 +17,7 @@
       <button class="nav-item" data-page="plattegrond"><span class="icon"><i class="fa-regular fa-map"></i></span>Plattegrond</button>
       <button class="nav-item" data-page="links"><span class="icon"><i class="fa-solid fa-link"></i></span>Belangrijke websites of linkjes</button>
       <button class="nav-item" data-page="afspraken"><span class="icon"><i class="fa-solid fa-exclamation"></i></span>Toekomstige afspraken/toetsen</button>
+      <button class="nav-item" data-page="studiestatus"><span class="icon"><i class="fa-solid fa-exclamation"></i></span>Studievooruitgang</button>
     </nav>
 
     <div class="profile"><div class="avatar"><i class="fa-regular fa-user"></i></div><div><div class="name">Student</div><div class="sub">Lorem Ipsum</div></div><button class="dots">⋮</button></div>
@@ -79,15 +80,145 @@
 
     <section id="rooster" class="page"><div class="card simple"><h1>Rooster</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></section>
     <section id="plattegrond" class="page"><div class="card simple"><h1>Plattegrond</h1><div class="big-map"><p>Begane grond</p><img style="margin-top:5px; width:400px;" src="https://i.postimg.cc/0Nk4kWMV/m0-met-trap.png"></img><p>Eerste verdieping</p><img style="margin-top:5px; width:400px;" src="https://i.postimg.cc/wjcPd8vg/m1.png"></img><p>Tweede verdieping</p><img style="margin-top:5px; width:400px;" src="https://i.postimg.cc/YCwVVqpK/m2.png"></img></div></div></section>
-    <section id="links" class="page"><div class="card simple"><h1>Belangrijke websites of linkjes</h1><ul class="links">
+    <section id="links" class="page">
+      <div class="card links-page">
+        <div class="links-heading">
+          <div>
+            <p class="eyebrow">Snel geregeld</p>
+            <h1>Belangrijke websites</h1>
+            <p class="links-intro">Handige HAN-links voor je studie, planning en dagelijkse campuszaken.</p>
+          </div>
+          <span class="links-heading-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+        </div>
 
-<li><a href="https://osiris.han.nl/" target="_blank">Osiris</a></li>
-<li><a href="https://apps.apple.com/nl/app/han-event-app/id6745787494" target="_blank">HAN event app</a></li>
-<li><a href="https://eduroam.org/geteduroam-get-connected-quickly-and-safely/" target="_blank">Wifi</a></li>
-<li><a href="https://leren.han.nl/" target="_blank">Lesinfo</a></li>
+        <ul class="link-grid">
+          <li>
+            <a class="link-card" href="https://osiris.han.nl/" target="_blank" rel="noopener noreferrer">
+              <span class="link-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+              <span class="link-copy"><strong>Osiris</strong><small>Bekijk je resultaten, inschrijvingen en studiegegevens.</small></span>
+              <i class="fa-solid fa-arrow-up-right-from-square link-arrow"></i>
+            </a>
+          </li>
+          <li>
+            <a class="link-card" href="https://apps.apple.com/nl/app/han-event-app/id6745787494" target="_blank" rel="noopener noreferrer">
+              <span class="link-icon"><i class="fa-solid fa-calendar-days"></i></span>
+              <span class="link-copy"><strong>HAN event app</strong><small>Ontdek evenementen, activiteiten en nieuws van de HAN.</small></span>
+              <i class="fa-solid fa-arrow-up-right-from-square link-arrow"></i>
+            </a>
+          </li>
+          <li>
+            <a class="link-card" href="https://eduroam.org/geteduroam-get-connected-quickly-and-safely/" target="_blank" rel="noopener noreferrer">
+              <span class="link-icon"><i class="fa-solid fa-wifi"></i></span>
+              <span class="link-copy"><strong>Wifi</strong><small>Maak snel verbinding met het veilige eduroam-netwerk.</small></span>
+              <i class="fa-solid fa-arrow-up-right-from-square link-arrow"></i>
+            </a>
+          </li>
+          <li>
+            <a class="link-card" href="https://leren.han.nl/" target="_blank" rel="noopener noreferrer">
+              <span class="link-icon"><i class="fa-solid fa-book-open"></i></span>
+              <span class="link-copy"><strong>Lesinfo</strong><small>Ga naar je digitale leeromgeving en vind je lesmateriaal.</small></span>
+              <i class="fa-solid fa-arrow-up-right-from-square link-arrow"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="studiestatus" class="page">
+      <div class="card simple">
+        <div class="study-heading">
+          <div>
+            <p class="eyebrow">Jouw voortgang</p>
+            <h1>Studievooruitgang</h1>
+            <p class="study-intro">Houd bij hoeveel studiepunten je dit jaar hebt behaald.</p>
+          </div>
+          <span class="study-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+        </div>
 
-</ul></div></section>
-    <section id="afspraken" class="page"><div class="card simple"><h1>Toekomstige afspraken/toetsen</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></section>
+        <div class="study-overview">
+          <div class="progress-ring" style="--progress: 45%;">
+            <div class="progress-ring__inner">
+              <strong>27</strong>
+              <span>van 60 studiepunten</span>
+            </div>
+          </div>
+          <div class="study-summary">
+            <div class="summary-topline">
+              <span>Behaald</span>
+              <strong>45%</strong>
+            </div>
+            <div class="progress-track" role="progressbar" aria-label="Studiepunten behaald" aria-valuemin="0" aria-valuemax="60" aria-valuenow="27">
+              <span style="width: 45%;"></span>
+            </div>
+            <p>Nog <b>33 studiepunten</b> te gaan om je propedeusejaar af te ronden.</p>
+            <div class="study-legend">
+              <span><i class="legend-dot completed"></i>Behaald <b>27 studiepunten</b></span>
+              <span><i class="legend-dot remaining"></i>Openstaand <b>33 studiepunten</b></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="study-milestones">
+          <div class="milestone complete"><span class="milestone-check"><i class="fa-solid fa-check"></i></span><div><b>Periode 1</b><small>15 studiepunten behaald</small></div></div>
+          <div class="milestone current"><span class="milestone-check"><i class="fa-solid fa-arrow-right"></i></span><div><b>Periode 2</b><small>12 van 15 studiepunten behaald</small></div></div>
+          <div class="milestone current"><span class="milestone-check"><i class="fa-solid fa-arrow-right"></i></span><div><b>Periode 3</b><small>0 van 15 studiepunten behaald</small></div></div>
+          <div class="milestone current"><span class="milestone-check"><i class="fa-solid fa-arrow-right"></i></span><div><b>Periode 4</b><small>0 van 15 studiepunten behaald</small></div></div>
+          <div class="milestone"><span class="milestone-check"></span><div><b>Jaar afgerond</b><small>60 studiepunten totaal</small></div></div>
+        </div>
+      </div>
+    </section>
+    <section id="afspraken" class="page">
+      <div class="card appointments-page">
+        <div class="appointments-heading">
+          <div>
+            <p class="eyebrow">Planning</p>
+            <h1>Toekomstige afspraken</h1>
+            <p class="appointments-intro">Een rustig overzicht van je aankomende toetsen, deadlines en belangrijke momenten.</p>
+          </div>
+          <span class="appointments-heading-icon"><i class="fa-solid fa-calendar-check"></i></span>
+        </div>
+
+        <div class="appointments-summary">
+          <div class="summary-tile">
+            <span class="summary-tile-icon"><i class="fa-solid fa-calendar-day"></i></span>
+            <span><strong>3</strong><small>Aankomende momenten</small></span>
+          </div>
+          <div class="summary-tile">
+            <span class="summary-tile-icon accent"><i class="fa-solid fa-clock"></i></span>
+            <span><strong>12 mei</strong><small>Eerstvolgende afspraak</small></span>
+          </div>
+        </div>
+
+        <div class="appointments-list">
+          <article class="appointment-card exam">
+            <div class="appointment-date"><strong>12</strong><span>MEI</span></div>
+            <div class="appointment-content">
+              <div class="appointment-topline"><span class="appointment-tag">Toets</span><span class="appointment-time"><i class="fa-regular fa-clock"></i> 09:00 - 10:30</span></div>
+              <h2>Programmeren 1</h2>
+              <p><i class="fa-solid fa-location-dot"></i> Lokaal A1.02 <span class="appointment-divider">•</span> Arnhem</p>
+            </div>
+            <i class="fa-solid fa-chevron-right appointment-arrow"></i>
+          </article>
+          <article class="appointment-card deadline">
+            <div class="appointment-date"><strong>18</strong><span>MEI</span></div>
+            <div class="appointment-content">
+              <div class="appointment-topline"><span class="appointment-tag">Deadline</span><span class="appointment-time"><i class="fa-regular fa-clock"></i> 23:59</span></div>
+              <h2>Projectdocumentatie inleveren</h2>
+              <p><i class="fa-solid fa-cloud-arrow-up"></i> Inleveren via Lesinfo</p>
+            </div>
+            <i class="fa-solid fa-chevron-right appointment-arrow"></i>
+          </article>
+          <article class="appointment-card event-item">
+            <div class="appointment-date"><strong>26</strong><span>MEI</span></div>
+            <div class="appointment-content">
+              <div class="appointment-topline"><span class="appointment-tag">Afspraak</span><span class="appointment-time"><i class="fa-regular fa-clock"></i> 13:00 - 14:00</span></div>
+              <h2>Studieloopbaangesprek</h2>
+              <p><i class="fa-solid fa-location-dot"></i> Online via Teams</p>
+            </div>
+            <i class="fa-solid fa-chevron-right appointment-arrow"></i>
+          </article>
+        </div>
+      </div>
+    </section>
     <section id="todo" class="page"><div class="card simple"><h1>Todo</h1><label><input type="checkbox"> Lorem ipsum dolor sit amet</label><label><input type="checkbox"> Consectetur adipiscing elit</label></div></section>
   </main>
 </div>
