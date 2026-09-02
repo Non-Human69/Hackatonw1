@@ -44,6 +44,14 @@ body {
   cursor: pointer;
 }
 
+.links li a {
+    color: #a3cbe2;
+}
+
+.links li a:hover, .links li a:active, .links li a:visited {
+    color: #cbe2e7;
+}
+
 .nav {
   display: flex;
   flex-direction: column;
@@ -483,4 +491,5 @@ input:checked {
     font-size: 14px;
   }
 }
+
 
