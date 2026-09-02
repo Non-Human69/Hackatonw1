@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+<script src="https://kit.fontawesome.com/a5665daa0c.js" crossorigin="anonymous"></script>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Student Dashboard</title>
@@ -11,18 +12,18 @@
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-header"><span>Menu</span><button class="icon-btn" id="closeMenu">×</button></div>
     <nav class="nav">
-      <button class="nav-item active" data-page="home"><span class="icon">⌂</span>Home</button>
-      <button class="nav-item" data-page="rooster"><span class="icon">▣</span>Rooster</button>
-      <button class="nav-item" data-page="plattegrond"><span class="icon">⌑</span>Plattegrond</button>
+      <button class="nav-item active" data-page="home"><span class="icon"><i class="fa-regular fa-house"></i></span>Home</button>
+      <button class="nav-item" data-page="rooster"><span class="icon"><i class="fa-regular fa-calendar"></i></span>Rooster</button>
+      <button class="nav-item" data-page="plattegrond"><span class="icon"><i class="fa-regular fa-map"></i></span>Plattegrond</button>
       <button class="nav-item" data-page="links"><span class="icon">↗</span>Belangrijke websites of linkjes</button>
-      <button class="nav-item" data-page="afspraken"><span class="icon">▦</span>Toekomstige afspraken/toetsen</button>
+      <button class="nav-item" data-page="afspraken"><span class="icon"><i class="fa-solid fa-exclamation"></i></span>Toekomstige afspraken/toetsen</button>
     </nav>
 
-    <div class="profile"><div class="avatar">♙</div><div><div class="name">Student</div><div class="sub">Lorem Ipsum</div></div><button class="dots">⋮</button></div>
+    <div class="profile"><div class="avatar"><i class="fa-regular fa-user"></i></div><div><div class="name">Student</div><div class="sub">Lorem Ipsum</div></div><button class="dots">⋮</button></div>
 
     <nav class="nav bottom-nav">
       <button class="nav-item"><span class="icon white">?</span>Help</button>
-      <button class="nav-item"><span class="icon white">♧</span>Berichten</button>
+      <button class="nav-item"><span class="icon white"><i class="fa-regular fa-envelope"></i></span>Berichten</button>
       <button class="nav-item" data-page="todo"><span class="icon">☑</span>Todo</button>
     </nav>
     <button class="close-text" id="closeText">MENU SLUITEN</button>
@@ -31,19 +32,19 @@
   <main class="main">
     <header class="topbar">
       <button class="mobile-menu" id="openMenu">☰</button>
-      <div class="title"><span class="title-icon">⌂</span><span id="pageTitle">Home</span></div>
-      <div class="top-actions"><button>⌕</button><button>♙</button></div>
+      <div class="title"><span class="title-icon"><i class="fa-regular fa-house"></i></span><span id="pageTitle">Home</span></div>
+      <div class="top-actions"><button>⌕</button><button><i class="fa-regular fa-user"></i></button></div>
     </header>
 
     <section id="home" class="page active">
       <div class="welcome card">
         <div><h1>Welkom!</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-        <div class="cap">⌂</div>
+        <div class="cap"><i class="fa-regular fa-house"></i></div>
       </div>
 
       <div class="grid two">
         <div class="card">
-          <h2>▦ <span>Laatste roosterwijzigingen</span></h2>
+          <h2><i class="fa-regular fa-calendar"></i> <span>Laatste roosterwijzigingen</span></h2>
           <div class="changes">
             <div><i></i><section><b>Lorem ipsum dolor</b><small>Lorem ipsum</small></section><time>DD-05</time></div>
             <div><i></i><section><b>Lorem ipsum dolor</b><small>Lorem ipsum</small></section><time>DD-05</time></div>
@@ -57,12 +58,12 @@
       </div>
 
       <div class="card map-card">
-        <h2>⌑ <span>Plattegrond Campus</span></h2>
+        <h2><i class="fa-regular fa-map"></i> <span>Plattegrond Campus</span></h2>
         <div class="map-content"><div class="map-placeholder"><span>●</span></div><div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><button class="outline">Bekijk plattegrond →</button></div></div>
       </div>
 
       <div class="card">
-        <h2>▦ <span>Toekomstige afspraken/toetsen</span></h2>
+        <h2><i class="fa-solid fa-exclamation"></i> <span>Toekomstige afspraken/toetsen</span></h2>
         <div class="events">
           <div class="event"><div class="date">12<small>Mei</small></div><div><b>Lorem ipsum dolor sit amet</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div><span>›</span></div>
           <div class="event"><div class="date">18<small>Mei</small></div><div><b>Lorem ipsum dolor sit amet</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div><span>›</span></div>
